@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar-logo{
+    height: 40px;
+    padding: 5px;
+  }
+
+  .navbar li {
+    margin-right: 70px;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu-item {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-menu-item:hover {
+    color: #ff6600;
+  }
+  
+  .navbar-menu-item.active {
+    color: #ff6600;
+    font-weight: bold;
+  }

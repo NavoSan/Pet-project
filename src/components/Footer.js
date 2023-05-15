@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div>
         <p>Información de contacto:</p>
         <p>Teléfono: +57 (319) 2406574</p>

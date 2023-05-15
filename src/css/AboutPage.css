@@ -1,0 +1,92 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .about-text {
+    width: 80%;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-text p {
+    margin-bottom: 20px;
+  }
+
+
+  .image-container {
+    padding: 15px;
+    
+  }
+  .about-image {
+    display: flex;
+    width: 50%;
+    max-width: 250px;
+    right: 0;
+    bottom: 0;
+    transform: translateX(50%) translateY(50%);
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    padding: 5px;
+    
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(100px) translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) translateY(0);
+    }
+  }
+
+
+  img {
+    max-width: 400px;
+    max-height: 300px;
+    animation: aparecer 1s ease-in-out;
+  }
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .image-and-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+  
+  .text-container {
+    flex: 1;
+  }
+
+
+  
+  
