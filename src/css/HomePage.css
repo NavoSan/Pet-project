@@ -51,3 +51,46 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
+
+/* Estilos para el carrusel */
+
+/* Estilos para el carrusel */
+.carousel {
+  padding: 15px;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 95%;
+  height: 300px;
+}
+
+img{
+  max-width: 440px;
+}
+
+.carousel .slide {
+  padding: 15px;
+  background: #f5f5f5;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.carousel .slide img {
+  max-height: 600px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: red;
+}
+
+
+

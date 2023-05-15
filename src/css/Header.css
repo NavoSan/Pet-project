@@ -26,9 +26,19 @@
   }
   
   .navbar-menu {
+    list-style-type: none;
     margin: 0 auto;
     display: flex;
     align-items: center;
+  }
+
+  .navbar-menu li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  .navbar-menu li a {
+    text-decoration: none;
   }
   
   .navbar-menu-item {
@@ -36,7 +46,7 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     cursor: pointer;
-    color: #333;
+    color: #0c1592c0;
     transition: color 0.2s ease-in-out;
   }
   

@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      {//<img src={logo} alt="Logo de la página" />/
-      }
       <nav className="navbar">
       <img className="navbar-logo" src={logo} alt="Logo de la página" />
         <ul className="navbar-menu">
